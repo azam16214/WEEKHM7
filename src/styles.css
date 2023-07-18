@@ -1,5 +1,5 @@
 .container {
-  border: 1px solid rgb(163, 163, 163);
+  border: 1px solid rgb(190, 22, 151);
   max-width: 400px;
   padding: 20px;
   border-radius: 20px;
@@ -30,8 +30,8 @@ h1 {
   padding: 8px;
   border-radius: 10px;
   margin: 10px 10px 10px;
-  background-color: rgb(135, 135, 233);
-  border: 1px solid rgb(49, 40, 65);
+  background-color: rgb(230, 53, 171);
+  border: 0px solid rgb(49, 40, 65);
 }
 .form-control {
   padding: 10px;
