@@ -19,6 +19,15 @@ function displayTemperature(response) {
   windElement.innerHTML = Math.round(response.data.wind.speed);
   let dateElement = document.querySelector("#date");
   dateElement.innerHTML = formateDate(response.data.dt * 1000);
+  let iconElement = document.querySelector("#icon");
+  let descriptionElement = document.querySelector("#description");
+  descriptionElement.innerHTML = response.data.weather[0].description;
+
+  iconElement.setAttribute(
+    "src",
+    `https://openweathermap.org/img/wn/${response.data.weather[0].icon}.png`
+  );
+  console.log(response.data);
 }
 
 function search(city) {
