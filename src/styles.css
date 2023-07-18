@@ -1,0 +1,31 @@
+.container {
+  border: 1px solid rgb(197, 197, 197);
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(244, 228, 239);
+}
+h1 {
+  text-size: 20px;
+  color: gray;
+}
+#list-features {
+  color: rgb(176, 176, 176);
+  list-style: none;
+}
+#celsius-link,
+#fahrenheit-link {
+  text-decoration: none;
+}
+#city-input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(188, 187, 187);
+}
+.form-button {
+  padding: 8px;
+  border-radius: 10px;
+  margin: 10px 10px 10px;
+  background-color: rgb(135, 135, 233);
+  border: 1px solid rgb(49, 40, 65);
+}
