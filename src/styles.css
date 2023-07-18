@@ -13,9 +13,10 @@ h1 {
   color: rgb(176, 176, 176);
   list-style: none;
 }
-#celsius-link,
-#fahrenheit-link {
+.active,
+.active2 {
   text-decoration: none;
+  top: -30px;
 }
 #city-input {
   padding: 10px;
@@ -29,7 +30,10 @@ h1 {
   background-color: rgb(135, 135, 233);
   border: 1px solid rgb(49, 40, 65);
 }
-#search-form {
-  padding: 8px;
-  margin: auto;
+.form-control {
+  padding: 10px;
+  border-radius: 6px;
+}
+#temperature {
+  font-size: 39px;
 }
