@@ -13,10 +13,13 @@ h1 {
   color: rgb(176, 176, 176);
   list-style: none;
 }
-.active,
-.active2 {
+.active {
   text-decoration: none;
   top: -30px;
+  cursor: default;
+}
+.active :hover {
+  text-decoration: none;
 }
 #city-input {
   padding: 10px;
