@@ -37,3 +37,6 @@ h1 {
 #temperature {
   font-size: 39px;
 }
+li::first-letter {
+  text-transform: capitalize;
+}
