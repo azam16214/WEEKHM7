@@ -1,7 +1,7 @@
 .container {
   border: 1px solid rgb(190, 22, 151);
-  max-width: 400px;
-  padding: 20px;
+  max-width: 800px;
+  padding: 20px 50px 50px;
   border-radius: 20px;
   background-color: rgb(255, 255, 255);
 }
@@ -42,4 +42,18 @@ h1 {
 }
 li::first-letter {
   text-transform: capitalize;
+}
+.forecast-weather {
+  margin-top: 20px;
+  text-align: center;
+}
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.4;
 }
